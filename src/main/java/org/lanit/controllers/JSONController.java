@@ -63,7 +63,7 @@ public class JSONController {
         }
         else if ("delete".equals(action) && request.has("delete")) {
             JsonNode deleteNode = request.get("delete");
-            String name = deleteNode.get("name").asText();
+            String name = deleteNode.get("tickerName").asText();
             int alertIndex = deleteNode.get("alertIndex").asInt();
             ObjectNode info = (ObjectNode) request.get("info");
             ArrayNode tickers = (ArrayNode) info.get("tickers");

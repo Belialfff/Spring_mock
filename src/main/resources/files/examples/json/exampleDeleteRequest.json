@@ -31,7 +31,7 @@
     ]
   },
   "delete": {
-    "tickerName": "A",
+    "name": "A",
     "alertIndex": 0
   },
   "uuid": "e684055c-906d-4ecb-bfa2-1d7167da263b",
