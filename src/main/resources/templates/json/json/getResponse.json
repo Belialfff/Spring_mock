@@ -1,0 +1,18 @@
+{
+  "info": {
+    "userID": "%s",
+    "tickers": [
+      {
+        "ticker": "%s",
+        "alerts": [
+          {
+            "timeframe": "%d",
+            "percent": "%d"
+          }
+        ]
+      }
+    ],
+    "uuid": "%s",
+    "lastUpdate": "%s"
+  }
+}

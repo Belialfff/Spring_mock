@@ -1,0 +1,40 @@
+{
+  "info": {
+    "userID": "LT2567026",
+    "tickers": [
+      {
+        "ticker": "M",
+        "alerts": [
+          {
+            "timeframe": 5,
+            "percent": 1
+          },
+          {
+            "timeframe": 10,
+            "percent": 5
+          }
+        ]
+      },
+      {
+        "ticker": "A",
+        "alerts": [
+          {
+            "timeframe": 60,
+            "percent": 10
+          },
+          {
+            "timeframe": 10,
+            "percent": 5
+          }
+        ]
+      }
+    ]
+  },
+  "add": {
+    "name": "A",
+    "timeFrame": 15,
+    "percent": 1
+  },
+  "uuid": "e684055c-906d-4ecb-bfa2-1d7167da263b",
+  "lastUpdate": "2022-02-20T12:09:50"
+}
